@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Yaseen Ahmed",
+    "picture": "https://i.pravatar.cc/150?u=yaseen",
+    "email": "yaseen.ahmed@example.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["family", "mentor"],
+    "bio": "Always gives the best career advice. Need to catch up on life and recent events.",
+    "goal": 30,
+    "next_due_date": "2026-03-31"
+  },
+  {
+    "id": 2,
+    "name": "Elmi Rahman",
+    "picture": "https://i.pravatar.cc/150?u=elmi",
+    "email": "elmi.r@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["family", "close friend"],
+    "bio": "Love hanging out at the house and chatting about absolutely everything.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 3,
+    "name": "Dighi Islam",
+    "picture": "https://i.pravatar.cc/150?u=dighi",
+    "email": "dighi.photo@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["photography", "creative"],
+    "bio": "Always taking pictures for the gallery. Has a great aesthetic sense for capturing moments.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Chowdhury",
+    "picture": "https://i.pravatar.cc/150?u=sarah",
+    "email": "sarah.k@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["k-drama", "binge buddy"],
+    "bio": "We watched Mouse and Beyond Evil together. Need to plan our next psychological thriller marathon.",
+    "goal": 21,
+    "next_due_date": "2026-04-06"
+  },
+  {
+    "id": 5,
+    "name": "Fahim Hasan",
+    "picture": "https://i.pravatar.cc/150?u=fahim",
+    "email": "fahim.ctf@example.com",
+    "days_since_contact": 28,
+    "status": "almost due",
+    "tags": ["ctf", "cybersecurity"],
+    "bio": "Teammate for weekend Capture The Flag competitions. An absolute wizard at web exploitation.",
+    "goal": 30,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 6,
+    "name": "Ayman Sadiq",
+    "picture": "https://i.pravatar.cc/150?u=ayman",
+    "email": "ayman.dev@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["university", "web dev"],
+    "bio": "CSE project partner. We usually pair program our full-stack apps in React and Next.js.",
+    "goal": 14,
+    "next_due_date": "2026-04-24"
+  },
+  {
+    "id": 7,
+    "name": "Nabila Haq",
+    "picture": "https://i.pravatar.cc/150?u=nabila",
+    "email": "n.haq@example.com",
+    "days_since_contact": 60,
+    "status": "on-track",
+    "tags": ["shopping", "fashion"],
+    "bio": "My go-to person for styling advice, picking out matching accessories, and finding the perfect Jamdani saree.",
+    "goal": 90,
+    "next_due_date": "2026-05-15"
+  }
+]

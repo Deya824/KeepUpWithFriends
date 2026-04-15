@@ -9,6 +9,8 @@ import HomePage from './pages/homePage/HomePage.jsx'
 import TimeLine from './pages/timeline/TimeLine.jsx'
 import Stats from './pages/stats/Stats.jsx'
 import ErrorPage from './pages/Error/ErrorPage.jsx'
+ import FriendDetails from './pages/frinedDetails/FriendDetails.jsx'
+import TimelineProvider from './context/TimelineProvider/TimelineProvider.jsx'
 const router=createBrowserRouter([
   {
     path:'/',
@@ -19,13 +21,19 @@ const router=createBrowserRouter([
     Component:HomePage
     },
     {
+      path:'/:id',
+      Component:FriendDetails
+
+    },
+    {
       path:'/timeline',
       Component:TimeLine
     }
     ,{
       path:'/stats',
       Component:Stats
-    }
+    },
+
    ]
    ,
    errorElement:<ErrorPage/>
@@ -35,6 +43,8 @@ const router=createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <TimelineProvider>
     <RouterProvider router={router} />
+    </TimelineProvider>
   </StrictMode>,
 )

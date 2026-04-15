@@ -3,23 +3,24 @@ import React from 'react';
 import instagramIcon from '../../assets/instagram.png'; 
 import facebookIcon from '../../assets/facebook.png';
 import xIcon from '../../assets/twitter.png'; 
+import logo from '../../assets/logo-xl.png'
 
 const Footer = () => {
   return (
     <footer className="bg-[#2D5A4C] text-white pt-16 pb-8 px-6">
       <div className="container mx-auto max-w-5xl">
         
-        {/* Top Content: Logo and Tagline */}
+       
         <div className="flex flex-col items-center text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
-            KeenKeeper
+         <img src={logo} alt="KeenKeeper Logo" className="w-70 h-auto" />
           </h1>
           <p className="text-sm md:text-base text-gray-200 max-w-2xl">
             Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
           </p>
         </div>
 
-        {/* Middle Content: Social Links */}
+        
         <div className="flex flex-col items-center mb-24">
           <h3 className="text-lg font-semibold mb-4">Social Links</h3>
           <div className="flex gap-3">
