@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar: Copyright and Legal Links */}
+       
         <div className="flex flex-col md:flex-row justify-between items-center text-xs md:text-sm text-gray-300 gap-4">
           <div className="text-center md:text-left">
             &copy; 2026 KeenKeeper. All rights reserved.

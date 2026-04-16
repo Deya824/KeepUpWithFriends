@@ -57,7 +57,7 @@ const FriendDetails = () => {
              {/* LEFT COLUMN */}
              <div className="LeftColumn w-1/3 flex flex-col gap-4">
 
-                 {/* Profile Card */}
+               
                  <div className="bg-white px-6 py-8 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center space-y-2">
                      <img src={expectedFriend?.picture} alt="" className="h-24 w-24 rounded-full object-cover" />
                      <h2 className="font-bold text-lg">{expectedFriend?.name}</h2>
@@ -78,7 +78,7 @@ const FriendDetails = () => {
                      <p className="text-blue-600 text-sm mt-1">Preferred: {expectedFriend?.email}</p>
                  </div>
 
-                 {/* Separated Buttons */}
+               
                  <div className="w-full flex flex-col gap-3">
                     <button className="bg-white shadow-sm border border-gray-100 py-3 rounded-xl text-sm font-medium hover:bg-gray-50 flex justify-center items-center gap-2">
                         ⏰ Snooze 2 Weeks
