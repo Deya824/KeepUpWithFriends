@@ -39,7 +39,7 @@ const FriendDetails = () => {
         const newEntry = {
             id: Date.now(),
             date: currentDate,
-            icon: type==='Call' ? <FiPhone /> : type==='Message' ? <FiMessageSquare /> : <FiVideo />,
+            icon: type==='Call' ? <FiPhone /> : type==='Text' ? <FiMessageSquare /> : <FiVideo />,
             title: `${type} with ${expectedFriend?.name}`
         };
 
