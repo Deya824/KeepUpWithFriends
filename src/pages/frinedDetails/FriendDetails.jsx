@@ -6,7 +6,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import { TimelineContext } from '../../context/TimelineProvider/TimelineContext';
 
 import { FiPhone, FiMessageSquare, FiVideo, FiClock, FiArchive, FiTrash2 } from 'react-icons/fi';
-
+import Phone from '../../assets/call.png'
+import Text from '../../assets/text.png'
+import Video from '../../assets/video.png'
 const FriendDetails = () => {
      const statusColors = {
         'overdue': 'bg-red-300 text-white',
@@ -39,7 +41,7 @@ const FriendDetails = () => {
         const newEntry = {
             id: Date.now(),
             date: currentDate,
-            icon: type==='Call' ? <FiPhone /> : type==='Text' ? <FiMessageSquare /> : <FiVideo />,
+            icon: type==='Call' ? <img src={Phone} alt="Call" /> : type==='Text' ? <img src={Text} alt="Text" /> : <img src={Video} alt="Video" />,
             title: `${type} with ${expectedFriend?.name}`
         };
 
@@ -125,15 +127,15 @@ const FriendDetails = () => {
                     <h2 className="mb-4 text-gray-500 text-sm font-semibold">Quick Check-In</h2>
                     <div className="flex gap-4">
                         <button onClick={() => handleCheckIn('Call')} className="border border-gray-100 shadow-sm py-6 flex-1 flex flex-col items-center gap-2 rounded-xl hover:bg-gray-50 transition-colors text-gray-700">
-                            <FiPhone className="text-2xl" />
+                            <img src={Phone} alt="Call" />
                             <span className="text-sm font-medium">Call</span>
                         </button>
                         <button onClick={() => handleCheckIn('Text')} className="border border-gray-100 shadow-sm py-6 flex-1 flex flex-col items-center gap-2 rounded-xl hover:bg-gray-50 transition-colors text-gray-700">
-                            <FiMessageSquare className="text-2xl" />
+                            <img src={Text} alt="Call" />
                             <span className="text-sm font-medium">Text</span>
                         </button>
                         <button onClick={() => handleCheckIn('Video')} className="border border-gray-100 shadow-sm py-6 flex-1 flex flex-col items-center gap-2 rounded-xl hover:bg-gray-50 transition-colors text-gray-700">
-                            <FiVideo className="text-2xl" />
+                            <img src={Video} alt="Video" />
                             <span className="text-sm font-medium">Video</span>
                         </button>
                     </div>
