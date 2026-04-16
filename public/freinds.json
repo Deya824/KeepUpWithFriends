@@ -6,7 +6,10 @@
     "email": "yaseen.ahmed@example.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": ["family", "mentor"],
+    "tags": [
+      "family",
+      "mentor"
+    ],
     "bio": "Always gives the best career advice. Need to catch up on life and recent events.",
     "goal": 30,
     "next_due_date": "2026-03-31"
@@ -18,7 +21,10 @@
     "email": "elmi.r@example.com",
     "days_since_contact": 12,
     "status": "almost due",
-    "tags": ["family", "close friend"],
+    "tags": [
+      "family",
+      "close friend"
+    ],
     "bio": "Love hanging out at the house and chatting about absolutely everything.",
     "goal": 14,
     "next_due_date": "2026-04-17"
@@ -30,7 +36,10 @@
     "email": "dighi.photo@example.com",
     "days_since_contact": 2,
     "status": "on-track",
-    "tags": ["photography", "creative"],
+    "tags": [
+      "photography",
+      "creative"
+    ],
     "bio": "Always taking pictures for the gallery. Has a great aesthetic sense for capturing moments.",
     "goal": 7,
     "next_due_date": "2026-04-20"
@@ -42,7 +51,10 @@
     "email": "sarah.k@example.com",
     "days_since_contact": 30,
     "status": "overdue",
-    "tags": ["k-drama", "binge buddy"],
+    "tags": [
+      "k-drama",
+      "binge buddy"
+    ],
     "bio": "We watched Mouse and Beyond Evil together. Need to plan our next psychological thriller marathon.",
     "goal": 21,
     "next_due_date": "2026-04-06"
@@ -54,7 +66,10 @@
     "email": "fahim.ctf@example.com",
     "days_since_contact": 28,
     "status": "almost due",
-    "tags": ["ctf", "cybersecurity"],
+    "tags": [
+      "ctf",
+      "cybersecurity"
+    ],
     "bio": "Teammate for weekend Capture The Flag competitions. An absolute wizard at web exploitation.",
     "goal": 30,
     "next_due_date": "2026-04-17"
@@ -66,7 +81,10 @@
     "email": "ayman.dev@example.com",
     "days_since_contact": 5,
     "status": "on-track",
-    "tags": ["university", "web dev"],
+    "tags": [
+      "university",
+      "web dev"
+    ],
     "bio": "CSE project partner. We usually pair program our full-stack apps in React and Next.js.",
     "goal": 14,
     "next_due_date": "2026-04-24"
@@ -78,9 +96,57 @@
     "email": "n.haq@example.com",
     "days_since_contact": 60,
     "status": "on-track",
-    "tags": ["shopping", "fashion"],
+    "tags": [
+      "shopping",
+      "fashion"
+    ],
     "bio": "My go-to person for styling advice, picking out matching accessories, and finding the perfect Jamdani saree.",
     "goal": 90,
     "next_due_date": "2026-05-15"
+  },
+  {
+    "id": 8,
+    "name": "Zarin Tasnim",
+    "picture": "https://i.pravatar.cc/150?u=zarin",
+    "email": "zarin.t@example.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": [
+      "university",
+      "study buddy"
+    ],
+    "bio": "Always saves a seat in the hardware lab. Great at explaining complex algorithms.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 9,
+    "name": "Mahmudul Hasan",
+    "picture": "https://i.pravatar.cc/150?u=mahmudul",
+    "email": "mahmudul.blockchain@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": [
+      "blockchain",
+      "research"
+    ],
+    "bio": "Collaborating on the data security research paper. Need to review his latest literature review draft.",
+    "goal": 14,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 10,
+    "name": "Anika Tabassum",
+    "picture": "https://i.pravatar.cc/150?u=anika",
+    "email": "anika.designs@example.com",
+    "days_since_contact": 20,
+    "status": "almost due",
+    "tags": [
+      "design",
+      "ui/ux"
+    ],
+    "bio": "Helps me pick the perfect color palettes and 'Bengali vibe' aesthetics for my frontend projects.",
+    "goal": 21,
+    "next_due_date": "2026-04-17"
   }
 ]
