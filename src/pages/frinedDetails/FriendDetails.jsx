@@ -5,7 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { TimelineContext } from '../../context/TimelineProvider/TimelineContext';
 
-import { FiPhone, FiMessageSquare, FiVideo } from 'react-icons/fi';
+import { FiPhone, FiMessageSquare, FiVideo, FiClock, FiArchive, FiTrash2 } from 'react-icons/fi';
 
 const FriendDetails = () => {
      const statusColors = {
@@ -81,13 +81,13 @@ const FriendDetails = () => {
                
                  <div className="w-full flex flex-col gap-3">
                     <button className="bg-white shadow-sm border border-gray-100 py-3 rounded-xl text-sm font-medium hover:bg-gray-50 flex justify-center items-center gap-2">
-                        ⏰ Snooze 2 Weeks
+                        <FiClock /> Snooze 2 Weeks
                     </button>
                     <button className="bg-white shadow-sm border border-gray-100 py-3 rounded-xl text-sm font-medium hover:bg-gray-50 flex justify-center items-center gap-2">
-                        📦 Archive
+                        <FiArchive /> Archive
                     </button>
                     <button className="bg-white shadow-sm border border-red-100 py-3 rounded-xl text-sm font-medium text-red-600 hover:bg-red-50 flex justify-center items-center gap-2">
-                        🗑️ Delete
+                        <FiTrash2 /> Delete
                     </button>
                  </div>
              </div>

@@ -16,29 +16,32 @@ const Stats = () => {
     return (
         <div className='mx-auto max-w-5xl py-5'>
             <h2 className='font-bold text-2xl'>Friends Analytics</h2>
-            <div className='mt-4 my-10 shadow py-10 rounded-md border border-gray-100'>
-                <h2 className='p-3 font-semibold'>By Interaction Type</h2>
-                
-               
-                <div style={{ width: '100%', maxWidth: '500px', height: '400px', margin: '0 auto' }}>
-                    <ResponsiveContainer width="100%" height="100%">
-                        <PieChart>
-                            <Pie
-                                data={data}
-                                innerRadius="60%" 
-                                outerRadius="80%" 
-                                cornerRadius="50%"
-                                paddingAngle={5}
-                                dataKey="value"
-                                isAnimationActive={true}
-                                stroke="none" 
-                            />
-                            <Legend />
-                            <Tooltip />
-                        </PieChart>
-                    </ResponsiveContainer>
-                </div>
+            <div className='my-10 shadow py-10 rounded-md border border-gray-100 bg-white'>
+                <h2 className='p-8 font-semibold'>By Interaction Type</h2>
 
+                {/* Fixed the ternary operator syntax here */}
+                {safeData.length > 0 ? (
+                    <div style={{ width: '100%', maxWidth: '500px', height: '400px', margin: '0 auto' }}>
+                        <ResponsiveContainer width="100%" height="100%">
+                            <PieChart>
+                                <Pie
+                                    data={data}
+                                    innerRadius="60%"
+                                    outerRadius="80%"
+                                    cornerRadius="50%"
+                                    paddingAngle={5}
+                                    dataKey="value"
+                                    isAnimationActive={true}
+                                    stroke="none"
+                                />
+                                <Legend />
+                                <Tooltip />
+                            </PieChart>
+                        </ResponsiveContainer>
+                    </div>
+                ) : (
+                    <h2 className="text-center text-gray-500">No Interaction logged yet</h2>
+                )}
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ const Card = ({friend}) => {
             
         <img c src={friend.picture} alt={friend.name}  className='h-20 w-20 rounded-full object-cover ' />
         <h2 className='font-bold'>{friend.name}</h2>
-        <p>{friend.days_since_contact}</p>
+        <p>{friend.days_since_contact}d ago</p>
       <div className='flex flex-wrap justify-center gap-2 my-2'>
                 {friend.tags && friend.tags.map((tag, index) => (
                     <span 
