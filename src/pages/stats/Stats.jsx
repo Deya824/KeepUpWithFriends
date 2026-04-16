@@ -14,8 +14,8 @@ const Stats = () => {
     ];
 
     return (
-        <div className='container mx-auto'>
-            <h2 className='font-bold text-xl'>Friends Analytics</h2>
+        <div className='mx-auto max-w-5xl py-5'>
+            <h2 className='font-bold text-2xl'>Friends Analytics</h2>
             <div className='mt-4 my-10 shadow py-10 rounded-md border border-gray-100'>
                 <h2 className='p-3 font-semibold'>By Interaction Type</h2>
                 
