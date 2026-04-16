@@ -1,12 +1,24 @@
-# React + Vite
+# KeepUpWithFriends
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+KeepUpWithFriends is a personal relationship management web application designed to help you track, analyze, and maintain meaningful connections. It provides an intuitive interface to log interactions and visualizes your communication habits so you never lose touch with the people who matter most.
 
-Currently, two official plugins are available:
+## Key Features
+* **Interaction Tracking:** Easily log different types of interactions—such as Calls, Texts, and Videos—to keep a detailed history of your communication.
+* **Visual Analytics:** View real-time, interactive pie charts to analyze your communication patterns and see a breakdown of how you connect with others.
+* **Contact Management & Reminders:** Track days since your last contact, set personal interaction goals, and monitor status indicators (like "on-track" or "overdue") for each friend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+* **Frontend Framework:** React 
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS
+* **Data Visualization:** Recharts
+* **Language:** JavaScript
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Deya824/KeepUpWithFriends.git](https://github.com/Deya824/KeepUpWithFriends.git)
